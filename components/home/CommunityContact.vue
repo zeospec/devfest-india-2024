@@ -5,7 +5,7 @@
         <v-container
           fluid
           style="
-            background-color: #c3ecf6;
+            background-color: #FFE7A5;
             border-radius: 20px;
             border: 1.5px solid black;
           "
@@ -27,7 +27,10 @@
             </v-col>
             <v-col md="4" sm="1"></v-col>
             <v-col md="3" sm="5" cols="12">
-              <v-img alt="logo" src="/assets/img/gdg-logo.svg"></v-img>
+              <v-row> <v-img class="gdg-logo" alt="logo" src="/assets/img/gdg logo.svg"></v-img></v-row>
+              
+              <h1 class="Devfest">DevFest</h1>
+              <h2 class="year">India'24</h2>
             </v-col>
           </v-row>
         </v-container>
@@ -41,4 +44,60 @@ const { mainData } = useJSONData();
 </script>
 
 <style>
+.Devfest{
+font-family: 'PT Sans',sans-serif;
+
+font-size: 64px;
+font-weight: 900;
+line-height: 76.8px;
+text-align: left;
+
+font-size: 64px;
+font-weight: 900;
+line-height: 76.8px;
+text-align: left;
+color: #19154A;
+
+
+
+}
+.year{
+  font-family: 'PT Sans',sans-serif;
+  
+font-size: 62px;
+font-weight: 900;
+line-height: 74.4px;
+letter-spacing: 0.03em;
+text-align: left;
+
+font-size: 62px;
+font-weight: 900;
+line-height: 36.4px;
+letter-spacing: 0.03em;
+text-align: left;
+color:#FDD663;
+
+text-shadow: 
+-2px 2px 0 #19154A,  /* Top-left shadow */
+    -2px -2px 0 #19154A, /* Top-right shadow */
+    -2px 2px 0 #19154A,  /* Bottom-left shadow */
+    2px 2px 0 #19154A,   /* Bottom-right shadow */
+    -4px 4px 0 #19154A,  /* Additional shadows */
+    -4px -4px 0 #19154A,
+    -4px 4px 0 #19154A,
+    4px 4px 0 #19154A;   /* Bottom-right shadow */
+}
+    
+
+.gdg-logo{
+  width: 125.23px;
+height: 68.06px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+
+margin-left: 74px;
+margin-bottom: 35px;
+
+}
+
 </style>

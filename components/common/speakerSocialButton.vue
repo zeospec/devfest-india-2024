@@ -1,6 +1,7 @@
 <template>
   <div class="mt-4">
     <!-- {{ socialLinks }} -->
+    
     <v-btn
       class="mr-1 mb-1"
       v-if="socialLinks.linkedin != null && socialLinks.linkedin.length"
@@ -23,14 +24,17 @@
     ></v-btn>
     <v-btn
       class="mr-1 mb-1"
-      icon="mdi-twitter"
+       icon=""
       :color="dark ? 'white' : ''"
       :href="socialLinks.twitter"
       target="_blank"
       size="small"
       v-if="socialLinks.twitter != null && socialLinks.twitter.length"
       variant="text"
-    ></v-btn>
+      
+    >
+    <img src="/assets/img/prime_twitter.png" alt="">  
+  </v-btn>
     <v-btn
       class="mr-1 mb-1"
       icon="mdi-instagram"
@@ -77,4 +81,24 @@ const props = defineProps({
 });
 </script>
 
-<style></style>
+<style>
+.v-btn{
+  width: 72px;
+    height: 72px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid rgba(25, 21, 74, 1);
+    box-shadow: 4px 4px 0px 0px rgba(25, 21, 74, 1);
+    margin:16px;
+}
+.v-btn img {
+      width: 80%;
+      height: 100%;
+      object-fit: cover; 
+     
+    }
+    .v-btn .v-icon{
+      font-size: calc(var(--v-icon-size-multiplier) * 1.9em);
+    }
+</style>
