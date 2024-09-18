@@ -11,12 +11,12 @@
           "
         >
           <v-row justify-center align="center" class="pa-5">
-            <v-col md="5" sm="6" cols="12">
+            <v-col class="keep-in-touch" md="5" sm="6" cols="12">
               <h1 style="line-height: normal;">
                 Keep in touch with {{ mainData.communityName }} for the latest
                 announcements
               </h1>
-              <p class="mb-3">
+              <p class="mb-3" id="stake-out">
                 Stake out #{{ mainData.communityName }} for the latest updates
                 and news.
               </p>
@@ -27,7 +27,7 @@
             </v-col>
             <v-col md="4" sm="1"></v-col>
             <v-col md="3" sm="5" cols="12">
-              <v-row> <v-img class="gdg-logo" alt="logo" src="/assets/img/gdg logo.svg"></v-img></v-row>
+              <v-row> <v-img class="gdg-logo" alt="logo" src="/assets/img/gdg.png"></v-img></v-row>
               
               <h1 class="Devfest">DevFest</h1>
               <h2 class="year">India'24</h2>
@@ -44,8 +44,16 @@ const { mainData } = useJSONData();
 </script>
 
 <style>
+.keep-in-touch h1 {
+  color: rgba(25, 21, 74, 1);
+
+}
+#stake-out {
+  color: rgba(25, 21, 74, 1);
+
+}
 .Devfest{
-font-family: 'PT Sans',sans-serif;
+
 
 font-size: 64px;
 font-weight: 900;
@@ -64,6 +72,7 @@ color: #19154A;
 .year{
   font-family: 'PT Sans',sans-serif;
   
+  
 font-size: 62px;
 font-weight: 900;
 line-height: 74.4px;
@@ -75,17 +84,10 @@ font-weight: 900;
 line-height: 36.4px;
 letter-spacing: 0.03em;
 text-align: left;
-color:#FDD663;
+color: rgba(253, 214, 99, 1);
 
-text-shadow: 
--2px 2px 0 #19154A,  /* Top-left shadow */
-    -2px -2px 0 #19154A, /* Top-right shadow */
-    -2px 2px 0 #19154A,  /* Bottom-left shadow */
-    2px 2px 0 #19154A,   /* Bottom-right shadow */
-    -4px 4px 0 #19154A,  /* Additional shadows */
-    -4px -4px 0 #19154A,
-    -4px 4px 0 #19154A,
-    4px 4px 0 #19154A;   /* Bottom-right shadow */
+
+-webkit-text-stroke: 2px #19154A;
 }
     
 
