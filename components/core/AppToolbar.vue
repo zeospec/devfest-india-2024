@@ -4,7 +4,8 @@
     fixed
     class="mt-0 px-2 toolbar-class mx-auto mt-4"
     rounded="xl"
-    color="#eeeeee"
+    color="white"
+    style="border: 2px solid black;"
   >
   <v-app-bar-nav-icon
       class="d-md-none d-lg-none d-sm-flex d-flex"
@@ -19,12 +20,14 @@
           class="mr-2"
         ></v-img>
         <v-chip
-          style="display: inline; background-color: white"
+          style="display: inline; background-color: white;border: 1px solid black;"
           variant="outlined"
           color="black"
           size="small"
           class="align-center pt-1"
-          >{{ mainData.communityLocation.city }}</v-chip
+          >
+          <v-icon start><v-img src="/img/flag-india.svg"></v-img></v-icon>
+          {{ mainData.communityLocation.city }}</v-chip
         >
       </div>
     </NuxtLink>
@@ -55,7 +58,7 @@
         :href="mainData.eventInfo.registeration.link"
         class="d-md-flex d-lg-flex d-sm-flex d-none mr-3"
         target="_blank"
-        color="#FFD427"
+        color="#FBBC04"
         style="
           border: 1.5px solid #1e1e1e;
           color: black;
@@ -107,7 +110,7 @@ const drawerAction = () => {
 /* Tablet and larger screens */
 @media (min-width: 700px) {
   .toolbar-class {
-    max-width: 1000px !important;
+    max-width: 1200px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
