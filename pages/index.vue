@@ -10,6 +10,10 @@
         <HomeStats class="my-0 my-md-5" />
         <!-- Stats -->
 
+        <!-- FindAnEvent -->
+        <HomeFindEvent class="my-0 my-md-5" />
+        <!-- FindAnEvent -->
+
         <!-- Whats New -->
         <HomeExpectionSection class="mt-md-10" />
         <!-- Whats New -->
