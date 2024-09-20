@@ -5,7 +5,6 @@
     class="mt-0 px-2 toolbar-class mx-auto mt-4"
     rounded="xl"
     color="white"
-    style="border: 2px solid black;"
   >
   <v-app-bar-nav-icon
       class="d-md-none d-lg-none d-sm-flex d-flex"
@@ -26,7 +25,7 @@
           size="small"
           class="align-center pt-1"
           >
-          <v-icon start><v-img src="/img/flag-india.svg"></v-img></v-icon>
+          <v-icon class="ml-1" start><v-img src="/img/flag-india.svg"></v-img></v-icon>
           {{ mainData.communityLocation.city }}</v-chip
         >
       </div>
@@ -104,6 +103,7 @@ const drawerAction = () => {
     margin-right: auto !important;
     margin-top: 0 !important;
     border-radius: 0 !important;
+    border-bottom: 1.5px solid black;
   }
 }
 
@@ -113,6 +113,7 @@ const drawerAction = () => {
     max-width: 1200px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    border: 1.5px solid black;
   }
 }
 </style>

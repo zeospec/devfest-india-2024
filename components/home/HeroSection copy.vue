@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mx-4 px-md-15 py-md-8 pa-3 bg-white" style="border: 1.5px solid black;border-radius: 20px;">
+  <v-container fluid class="">
     <v-row justify-center align="center">
       <v-col md="6" sm="6" cols="12">
         <h1 class="responsive-h1 my-4">
