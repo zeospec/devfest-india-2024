@@ -1,12 +1,40 @@
 <template>
   <v-container fluid class="mx-4 px-md-15 py-md-8 pa-3 bg-white" style="border: 1.5px solid black;border-radius: 20px;">
     <v-row justify-center align="center">
-      <v-col md="6" sm="6" cols="12">
-        <h1 class="responsive-h1 my-4">
-          DevFest <br />
-          {{ mainData.communityLocation.city }} 2024
+      <v-col md="6" sm="6" cols="12" class="d-flex">
+       <div           class="vectorimg">
+        <v-img
+          alt="logo"
+          src="assets/img/Vector.svg"
+          lazy-src="assets/img/Vector.svg"
+
+        ></v-img>
+       </div>
+      <div class="gdglogo"> 
+        <div style="width: 60%;">
+          <v-img
+          alt="logo"
+          src="assets/img/gdglogo.svg"
+          lazy-src="assets/img/gdglogo.svg"
+
+        ></v-img>
+        </div>
+          <h1 class="responsive-h1 my-4 pt-4">
+            <span style="font-size: 170%;color:#19154A">DevFest</span><br />
+             <span style="display: block;padding-top: 10px">{{ mainData.communityLocation.city }} 2024</span>
         </h1>
-        <p class="" :style="{ maxWidth: '90%' }">
+        </div>
+      </v-col>
+      <v-col md="6" sm="6" cols="12"  class="d-flex">
+          <div class="mr-8">
+            <v-img
+          alt="logo"
+          src="assets/img/gdgarrow.svg"
+          lazy-src="assets/img/gdgarrow.svg"
+
+        ></v-img>
+        <div class="pt-8">
+          <p class="" :style="{ maxWidth: '90%' }">
           {{ mainData.eventInfo.description.short }}
         </p>
 
@@ -41,13 +69,16 @@
           variant="flat"
           >Register Now</v-btn
         >
-      </v-col>
-      <v-col md="6" sm="6" cols="12">
+        </div>
+            
+          </div>
         <v-img
           alt="logo"
-          src="assets/img/hero-image.svg"
-          lazy-src="assets/img/hero-image.svg"
+          src="assets/img/Vectorright.svg"
+          lazy-src="assets/img/Vectorright.svg"
+          class="vectorimg"
         ></v-img>
+
       </v-col>
     </v-row>
   </v-container>
@@ -64,6 +95,15 @@ const { mainData } = useJSONData();
 .responsive-h1 {
   font-size: 250%;
   line-height: 100%;
+}
+.vectorimg {
+  width: 25%;
+
+}
+.gdglogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Media query for screens larger than 600px */

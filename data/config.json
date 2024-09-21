@@ -32,28 +32,34 @@
     },
     "stats": [
       {
-        "name": "Speakers",
-        "value": "23+",
+        "name": "Devs reached",
+        "value": "36,000+",
         "color": "#C3ECF6",
-        "image": "img/common/blue.png"
+        "image": "img/common/stats1.png"
       },
       {
-        "name": "Participants",
-        "value": "200+",
+        "name": "Events",
+        "value": "100+",
         "color": "#F8D8D8",
-        "image": "img/common/pink.png"
+        "image": "img/common/stats2.png"
       },
       {
-        "name": "Sessions",
-        "value": "10+",
+        "name": "Communities",
+        "value": "120",
         "color": "#CCF6C5",
-        "image": "img/common/green.png"
+        "image": "img/common/stats3.png"
       },
       {
-        "name": "Workshops",
-        "value": "2+",
+        "name": "Speakers",
+        "value": "400+",
         "color": "#FFE7A5",
-        "image": "img/common/yellow.png"
+        "image": "img/common/stats4.png"
+      },
+      {
+        "name": "Locations",
+        "value": "120",
+        "color": "#FFE7A5",
+        "image": "img/common/stats5.png"
       }
     ],
     "whatToExpect": [
