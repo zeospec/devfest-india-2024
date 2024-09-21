@@ -84,8 +84,8 @@ const props = defineProps({
 
 <style scoped>
 .v-btn{
-  width: 72px;
-    height: 72px;
+  width: 50px;
+    height: 50px;
     gap: 0px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
