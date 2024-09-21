@@ -44,13 +44,13 @@
             {{ mainData.eventInfo.date }}
           </span>
 
-          <span class="mr-4">
+          <!-- <span class="mr-4">
             <v-icon class="mr-1">mdi-map-legend</v-icon>
             <a :href="mainData.eventInfo.venue.map_link" target="_blank" style="color:black">
               {{ mainData.eventInfo.venue.address }}
             </a>
             
-          </span>
+          </span> -->
         </p>
 
         <v-btn
@@ -65,9 +65,9 @@
           :href="mainData.eventInfo.registeration.link"
           class="my-4 mt-3"
           target="_blank"
-          style="border: 1.5px solid #1e1e1e; color: black"
+          style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize;font-weight:600;"
           variant="flat"
-          >Register Now</v-btn
+          >Find a DevFest near you</v-btn
         >
         </div>
             
