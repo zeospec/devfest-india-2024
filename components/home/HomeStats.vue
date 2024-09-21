@@ -3,28 +3,21 @@
     <v-row
       justify-center
       align="center"
-      style="
-        background-color: #f3f3f3;
-        border-radius: 20px;
-        border: 1.5px solid black;
-      "
     >
-      <v-col cols="12" md="2" sm="12" order-md="1" order="2" order-sm="1" class="pa-0">
-        <!--Desktop-->
+      <!-- <v-col cols="12" md="2" sm="12" order-md="1" order="2" order-sm="1" class="pa-0">
         <v-img
           alt="image"
           class="d-none d-sm-none d-md-flex d-lg-flex d-xl-flex"
           src="/assets/img/element1.svg"
         ></v-img>
-        <!--mobile-->
         <v-img
           alt="image"
           class="d-flex d-sm-none d-md-none d-lg-none d-xl-none"
           src="/assets/img/element3.svg"
         ></v-img>
-      </v-col>
+      </v-col> -->
 
-      <v-col cols="12" md="10" sm="12" order-md="2" order="1" order-sm="2">
+      <v-col cols="12" md="12" sm="12" order-md="2" order="1" order-sm="2">
         <v-container fluid>
           <v-row>
             <v-col
@@ -62,7 +55,7 @@ const { mainData } = useJSONData();
 
 <style scoped>
 .responsive-title {
-  font-size: 300%;
+  font-size: 200%;
 }
 .stats-container {
   background-size: 70%;
@@ -97,5 +90,10 @@ const { mainData } = useJSONData();
   .stats-container {
     background-size: 80%;
   }
+}
+@media (min-width: 960px) {
+    .v-col-md-3 {
+        max-width: 20%;
+    }
 }
 </style>
