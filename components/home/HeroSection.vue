@@ -21,7 +21,7 @@
         </div>
           <h1 class="responsive-h1 my-4 pt-4">
             <span style="font-size: 170%;color:#19154A">DevFest</span><br />
-             <span style="display: block;padding-top: 10px">{{ mainData.communityLocation.city }} 2024</span>
+             <span style="display: block;padding-top: 10px; font-weight: 500;">{{ mainData.communityLocation.city }} 2024</span>
         </h1>
         </div>
       </v-col>

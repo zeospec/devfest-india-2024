@@ -18,17 +18,17 @@
         :key="index"
       >
         <div
+        :style="{ backgroundColor: item.color || '#eeeeee' }"
           style="
-            background-color: #eeeeee;
             border-radius: 20px;
             border: 1.5px solid black;
           "
         >
           <v-img
             :src="getImage(index + 1)"
-            width="140"
+            width="72"
             alt="image"
-            class="float-right mr-5"
+            class="float-right mr-5 pt-8"
           ></v-img>
           <div class="pa-8">
             <h2>{{ item.title }}</h2>
@@ -43,9 +43,9 @@
 </template>
 
 <script setup>
-import img1 from "@/assets/img/section-elements/se-1.svg";
-import img2 from "@/assets/img/section-elements/se-2.svg";
-import img3 from "@/assets/img/section-elements/se-3.svg";
+import img1 from "@/assets/img/section-elements/expect1.svg";
+import img2 from "@/assets/img/section-elements/expect2.svg";
+import img3 from "@/assets/img/section-elements/expect3.svg";
 
 const { mainData } = useJSONData();
 const getImage = (index) => {
