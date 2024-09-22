@@ -3,10 +3,10 @@
     <v-row>
       <v-col md="9" sm="7" cols="12">
         <div
-          style="background-color: #eeeeee; border-radius: 20px;border: 1.5px solid black;"
+          style="background-color: #F8D8D8; border-radius: 20px;border: 1.5px solid black;"
           class="pa-8"
         >
-          <h1>Stay updated on the products you love</h1>
+          <h1>Technical Content</h1>
           <p>
             This DevFest we are focusing on the technologies that are trending in the market and are in demand. Let's come together and learn about these technologies from industry leading experts.
           </p>
@@ -37,12 +37,14 @@
 
       <v-col md="3" sm="5" cols="12">
         <div
-          style="background-color: #eeeeee; border-radius: 20px;border: 1.5px solid black;"
+          style=" border-radius: 20px;border: 1.5px solid black;background-image: url('../../assets/img/expectframe.svg');"
           class="pa-8 text-center"
         >
-          <v-img alt="image" style="width: 100%;margin: auto;" src="/assets/img/extra/logo-text.svg"></v-img>
-          <v-chip class="mt-n12" variant="outlined" color="black" style="background-color: white;">{{ mainData.communityLocation.city }}</v-chip>
-          <v-img alt="image" style="width: 90%;margin: auto;" src="/assets/img/gdg-logo.svg"></v-img>
+          <v-img alt="image" style="width: 50%;" src="/assets/img/gdglogo.svg"></v-img>
+          <v-img alt="image" style="width: 90%;" src="/assets/img/extra/logotext.svg"></v-img>
+          <v-img alt="image" style="width: 70%;" src="/assets/img/extra/gdgtext.svg"></v-img>
+          <!-- <v-chip class="mt-n12" variant="outlined" color="black" style="background-color: white;">{{ mainData.communityLocation.city }}</v-chip> -->
+          <!-- <v-img alt="image" style="width: 90%;margin: auto;" src="/assets/img/gdg-logo.svg"></v-img> -->
         </div>
       </v-col>
     </v-row>
