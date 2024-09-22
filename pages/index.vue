@@ -22,6 +22,10 @@
         <HomeTechSection class="mb-md-10" />
         <!-- Technologies -->
 
+        <!-- Last Year Highlights -->
+        <HomeLastYearHighlight class="mb-md-10" />
+        <!-- Last Year Highlights -->
+
         <!-- Past DevFest -->
         <HomePastDevFest class="mb-md-10" />
         <!-- Past DevFest -->
