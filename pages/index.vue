@@ -27,11 +27,11 @@
         <!-- Last Year Highlights -->
 
         <!-- Past DevFest -->
-        <HomePastDevFest class="mb-md-10" />
+        <!-- <HomePastDevFest class="mb-md-10" /> -->
         <!-- Past DevFest -->
 
         <!-- Sponsors -->
-        <HomeSponsorsSection />
+        <!-- <HomeSponsorsSection /> -->
         <!-- Sponsors -->
 
         <!-- Keep in Touch -->
