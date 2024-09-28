@@ -1,0 +1,82 @@
+[
+    {
+      "community": "GDG Cloud Gandhinagar",
+      "city": "Gandhinagar",
+      "place": "Karnavati University, Dist, Gandhinagar, Gujarat, India",
+      "date": "10/08/2024",
+      "rsvp": "https://konfhub.com/ccdgn-2024#tickets",
+      "link": "https://konfhub.com/ccdgn-2024",
+      "latitude": "23.202818900078036",
+      "longitude": "72.58381632542688"
+    },
+    {
+      "community": "GDG Cloud Hyderabad",
+      "city": "Hyderabad",
+      "place": "T-Hub, Knowledge City Road, Raidurgam",
+      "date": "10/08/2024",
+      "rsvp": "https://gdg.community.dev/events/details/google-gdg-cloud-hyderabad-presents-cloud-community-days-hyderabad-2024-1/",
+      "link": "https://gdg.community.dev/events/details/google-gdg-cloud-hyderabad-presents-cloud-community-days-hyderabad-2024-1/",
+      "latitude": "17.43384422488208",
+      "longitude": "78.37889890494694"
+    },
+    {
+      "community": "GDG Cloud Kolkata",
+      "city": "Kolkata",
+      "place": "Biswa Bangla Exhibition Center",
+      "date": "17/08/2024",
+      "rsvp": "https://ccd2024.gdgcloudkol.org/",
+      "link": "https://ccd2024.gdgcloudkol.org/",
+      "latitude": "22.58104915058283",
+      "longitude": "88.4738600911108"
+    },
+    {
+      "community": "GDG Cloud Rajkot",
+      "city": "Rajkot",
+      "place": "Atmiya University, Kalawad Road: Rajkot ,Gujarat, India",
+      "date": "28/07/2024",
+      "rsvp": "https://gdg.community.dev/events/details/google-gdg-cloud-rajkot-presents-cloud-community-days-2024-gdg-cloud-rajkot/",
+      "link": "https://gdg.community.dev/events/details/google-gdg-cloud-rajkot-presents-cloud-community-days-2024-gdg-cloud-rajkot/",
+      "latitude": "22.28257908841023",
+      "longitude": "70.76776563825443"
+    },
+    {
+      "community": "GDG Cloud Indore",
+      "city": "Indore",
+      "place": "Hotel Sayaji, Indore",
+      "date": "31/08/2024",
+      "rsvp": "https://gdg.community.dev/events/details/google-gdg-cloud-indore-presents-google-cloud-community-day-indore-2024/cohost-gdg-cloud-indore",
+      "link": "https://gdg.community.dev/events/details/google-gdg-cloud-indore-presents-google-cloud-community-day-indore-2024/cohost-gdg-cloud-indore",
+      "latitude": "22.75142886029576",
+      "longitude": "75.88949918026206"
+    },
+    {
+      "community": "GDG Cloud Cloud Madurai",
+      "city": "Madurai",
+      "place": "The Grains Auditorium, Agrofood trade center, Madurai, Tamil Nadu",
+      "date": "31/08/2024",
+      "rsvp": "https://gdg.community.dev/events/details/google-gdg-cloud-madurai-presents-google-cloud-community-day-madurai-2024/",
+      "link": "https://gdg.community.dev/events/details/google-gdg-cloud-madurai-presents-google-cloud-community-day-madurai-2024/",
+      "latitude": "9.970880",
+      "longitude": "78.098150"
+    },
+    {
+      "community": "GDG Cloud Chennai",
+    "city": "Chennai",
+      "place": "Hablis, Chennai",
+      "date": "28/09/2024",
+      "rsvp": "https://gdg.community.dev/events/details/google-gdg-cloud-chennai-presents-google-cloud-community-day-2024-chennai/",
+      "link": "https://gdg.community.dev/events/details/google-gdg-cloud-chennai-presents-google-cloud-community-day-2024-chennai/",
+      "latitude": "13.007684246386447",
+      "longitude": "80.20828287269458"
+    },
+    {
+      "community": "GDG Cloud Bhopal",
+      "city": "Bhopal",
+      "place": "LNCT University, Kolar Road, Bhopal",
+      "date": "31/08/2024",
+      "rsvp": "https://www.commudle.com/communities/gdg-cloud-bhopal/events/cloud-community-days-bhopal-2024",
+      "link": "https://gdg.community.dev/events/details/google-gdg-cloud-bhopal-presents-cloud-community-day-bhopal-2024/cohost-gdg-cloud-bhopal",
+      "latitude": "23.178139730809768",
+      "longitude": "77.42797777265785"
+    }
+  ]

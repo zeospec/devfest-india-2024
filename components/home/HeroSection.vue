@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mx-4 px-md-15 py-md-8 pa-3 bg-white" style="border: 1.5px solid black;border-radius: 20px;">
+  <v-container fluid class="mx-4 px-md-15 py-md-8 pa-3 bg-white" style="border: 1.5px solid black; border-radius: 48px;">
     <v-row justify-center align="center" class="mobile-none">
       <v-col md="6" sm="6" cols="12" class="d-flex">
        <div class="vectorimg">
@@ -33,14 +33,14 @@
           lazy-src="assets/img/gdgarrow.svg"
 
         ></v-img>
-        <div class="pt-8">
+        <div class="space-wrapper">
           <p class="" :style="{ maxWidth: '90%' }">
           {{ mainData.eventInfo.description.short }}
         </p>
 
         <p class="my-5">
           <span class="mr-4">
-            <v-icon class="mr-1">mdi-calendar-month</v-icon>
+            <v-icon class="mr-1">mdi-calendar-blank</v-icon>
             {{ mainData.eventInfo.date }}
           </span>
 
@@ -65,7 +65,7 @@
           :href="mainData.eventInfo.registeration.link"
           class="my-4 mt-3"
           target="_blank"
-          style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize;font-weight:600;"
+          style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize;font-weight:600;font-size: 16px;"
           variant="flat"
           >Find a DevFest near you</v-btn
         >
@@ -118,21 +118,21 @@
         ></v-img>
         </div>
 
-        <div class="pt-8">
+        <div class="space-wrapper ">
           <p class="" :style="{ maxWidth: '100%' }">
           {{ mainData.eventInfo.description.short }}
         </p>
 
         <p class="my-5">
           <span class="mr-4">
-            <v-icon class="mr-1">mdi-calendar-month</v-icon>
+            <v-icon class="mr-1">mdi-calendar-blank</v-icon>
             {{ mainData.eventInfo.date }}
           </span>
         </p>
 
         <v-btn
           rounded
-          size="large"
+          size="small"
           color="#FFD427"
           v-if="
             mainData.eventInfo &&
@@ -142,7 +142,7 @@
           :href="mainData.eventInfo.registeration.link"
           class="my-4 mt-3"
           target="_blank"
-          style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize;font-weight:600;width: 100%;"
+          style="border: 1.5px solid #1e1e1e; color: #19154A;text-transform: capitalize;font-weight:600;width: 100%;font-size: 16px !important;"
           variant="flat"
           >Find a DevFest near you</v-btn
         >
@@ -179,6 +179,9 @@ const { mainData } = useJSONData();
   .mobile-none {
     display:flex;
   }
+  .space-wrapper {
+    padding-top: 50px !important;
+}
 
 /* Media query for screens larger than 600px */
 @media (min-width: 600px) {
