@@ -10,6 +10,16 @@
     "visible": true
   },
   {
+    "name": "Event",
+    "path": "/FindAnEventPage",
+    "visible": true
+  },
+  {
+    "name": "CFP",
+    "path": "/cfp",
+    "visible": true
+  },
+  {
     "name": "FAQ",
     "path": "/faq",
     "visible": true

@@ -33,7 +33,7 @@
         <v-btn
           rounded
           color="#fff"
-          to="/"
+          to="/FindAnEventPage"
           class="my-2 mt-3 mr-3 white-btn"
           target="_blank"
           style="border: 1.5px solid #1e1e1e;background-color: #fff !important; color: #19154A;text-transform: capitalize;padding: 14px;display: inline-block;height: auto;border-radius: 50px;"
