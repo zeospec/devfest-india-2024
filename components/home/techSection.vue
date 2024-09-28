@@ -3,7 +3,7 @@
     <v-row>
       <v-col md="9" sm="7" cols="12">
         <div
-          style="background-color: #F8D8D8; border-radius: 20px;border: 1.5px solid black;"
+          style="background-color: #F8D8D8; border-radius: 40px;border: 1.5px solid black;"
           class="pa-8"
         >
           <h1>Technical Content</h1>
@@ -37,8 +37,7 @@
 
       <v-col md="3" sm="5" cols="12">
         <div
-          style=" border-radius: 20px;border: 1.5px solid black;background-image: url('../../assets/img/expectframe.svg');"
-          class="pa-8 text-center"
+          class="pa-8 text-center expect"
         >
           <v-img alt="image" style="width: 50%;" src="/assets/img/gdglogo.svg"></v-img>
           <v-img alt="image" style="width: 90%;" src="/assets/img/extra/logotext.svg"></v-img>
@@ -118,4 +117,8 @@ var tech = ref([
 </script>
 
 <style>
+.expect {
+  background-image: url(/assets/img/expect.svg);
+  background-size: contain;
+}
 </style>

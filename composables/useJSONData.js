@@ -7,6 +7,9 @@ import sponsorsData from "../data/sponsors.json";
 import teamData from "../data/team.json";
 import cocData from "../data/coc.json";
 import navbarData from "../data/navbar.json";
+import communitydata from "../data/communitydata.json";
+
+
 
 export const useJSONData = () => {
   return {
@@ -18,6 +21,7 @@ export const useJSONData = () => {
     sponsorsData,
     teamData,
     cocData,
-    navbarData
+    navbarData,
+    communitydata
   };
 };

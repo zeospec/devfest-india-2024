@@ -20,7 +20,7 @@
         <div
         :style="{ backgroundColor: item.color || '#eeeeee' }"
           style="
-            border-radius: 20px;
+            border-radius: 40px;
             border: 1.5px solid black;
           "
         >

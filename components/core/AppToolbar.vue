@@ -46,7 +46,7 @@
       </template>
     </div>
 
-    <ClientOnly>
+    <!-- <ClientOnly>
       <v-btn
         rounded
         v-if="
@@ -67,7 +67,7 @@
         variant="flat"
         >Register Now</v-btn
       >
-    </ClientOnly>
+    </ClientOnly> -->
     
   </v-app-bar>
 </template>
@@ -94,6 +94,9 @@ const drawerAction = () => {
   z-index: 100;
   margin-bottom: 80px;
   height: 64px; /* Set the height of the toolbar */
+}
+.rounded-xl {
+    border-radius: 50px !important;
 }
 /* Mobile breakpoint */
 @media (max-width: 700px) {

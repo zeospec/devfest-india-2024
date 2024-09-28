@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mx-3">
+  <v-container fluid class="mx-3 pt-0">
     <v-row
       justify-center
       align="center"
@@ -17,14 +17,14 @@
         ></v-img>
       </v-col> -->
 
-      <v-col cols="12" md="12" sm="12" order-md="2" order="1" order-sm="2">
+      <v-col cols="12" md="12" sm="12" order-md="2" order="1" order-sm="2" class="pt-0 px-0">
         <v-container fluid>
           <v-row>
             <v-col
               md="3"
               sm="3"
               cols="6"
-              class="stats-container"
+              class="stats-container pt-0"
               :style="{
                 backgroundImage: `url(${item.image})`,
                 backgroundPosition: 'center',
@@ -33,6 +33,7 @@
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
+                color: 'rgb(25, 21, 74)'
               }"
               v-for="(item, index) in mainData.eventInfo.stats"
               :key="index"
@@ -55,10 +56,11 @@ const { mainData } = useJSONData();
 
 <style scoped>
 .responsive-title {
-  font-size: 200%;
+  font-size: 180%;
+  font-weight: 600;
 }
 .stats-container {
-  background-size: 70%;
+  background-size: 78%;
 }
 
 @media (max-width: 1140px) {
