@@ -20,11 +20,35 @@
             >
               <p class="mt-15 float-left ml-6" style="font-size:14px">{{ item.City }}</p>
             </v-img> -->
-            <img src="/assets/img/devfest-cover.svg" alt="" style="width: 100%;" />
+            <!-- <img src="/assets/img/devfest-cover.svg" alt="" style="width: 100%;" /> -->
+             <div class="d-flex pt-4">
+                <v-img alt="image" class="mr-8"  src="/assets/img/gdglogo.svg"></v-img>
+                <v-img alt="image" src="/assets/img/extra/gdgtext.svg"></v-img>
+             </div>
+             <div class="d-flex">
+                <v-img
+          alt="logo"
+          src="assets/img/Vector.svg"
+          lazy-src="assets/img/Vector.svg"
+        ></v-img>
+        <div>
+            <h1 class="responsive-h1">
+            <span style="font-size: 170%;color:#19154A">DevFest</span><br />
+             <span style="display: block;font-weight: 500; font-size: 30px;text-align: center;color: #19154A">{{item.City }}</span>
+            </h1>
+        </div>
+        <v-img
+          alt="logo"
+          src="assets/img/Vectorright.svg"
+          lazy-src="assets/img/Vectorright.svg"
+          class="vectorimg"
+        ></v-img>
+            </div>
+
             <!-- <p class="mt-15 float-left ml-6" style="font-size:14px">{{ item.City }}</p> -->
             <v-card-title>
               <div>
-                <span style="color: #19154A;font-weight: 600;">{{ item.DevFestName }}</span>
+                <!-- <span style="color: #19154A;font-weight: 600;">{{ item.DevFestName }}</span> -->
                 <p class="mt-n2 pt-2" style="font-size: 70%">
                   <!-- <v-icon class="ml-0" small>mdi-calendar-month</v-icon> -->
                   {{ getDate(item.StartingDate) }}

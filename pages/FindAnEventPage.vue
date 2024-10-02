@@ -52,36 +52,42 @@
 });
   // Reactive state
   const loader = ref(true);
-  const data = ref([]);
-  const passedDevFests = ref([]);
+const upcomingDevFests = ref([]);
+const passedDevFests = ref([]);
   
   // Function to fetch events data
   async function getAllEvents() {
     loader.value = true;
     try {
-      const res = await fetch(
-        'https://raw.githubusercontent.com/devfestindia/devfest-india-data-2023/main/data/events.json'
-      );
-      const events = await res.json();
-  
-      // Filter past events
-      passedDevFests.value = events.filter((i) => {
-        return new Date(i.StartingDate) - new Date().setHours(0, 0, 0, 0) < 0;
-      });
-  
-      // Filter upcoming events and sort them by date
-      const upcomingDevFests = events.filter((i) => {
-        return new Date(i.StartingDate) - new Date().setHours(0, 0, 0, 0) >= 0;
-      }).sort((a, b) => {
-        return new Date(a.StartingDate) - new Date(b.StartingDate);
-      });
-  
-      data.value = upcomingDevFests;
-    } catch (error) {
-      console.error('Error fetching events:', error);
-    } finally {
-      loader.value = false;
-    }
+        let res = await fetch(
+          "https://raw.githubusercontent.com/devfestindia/devfest-india-data-2024/refs/heads/main/data/events.json"
+        );
+        res = await res.json();
+
+
+    // DEBUG: Log current date in various formats
+    const currentDate = new Date();
+
+    // Filter upcoming events
+    upcomingDevFests.value = res.filter((event) => {
+      const eventStartDate = new Date(event.StartingDate);
+      
+      return eventStartDate >= currentDate;
+    });
+
+    // Filter passed events
+    passedDevFests.value = res.filter((event) => {
+      const eventStartDate = new Date(event.StartingDate);
+      return eventStartDate < currentDate;
+    });
+
+    // DEBUG: Log filtered results
+
+  } catch (error) {
+    console.error("Error fetching events", error);
+  } finally {
+    loader.value = false; // Set the loader to false after fetching the data
+  }
   }
   
   // Fetch events when component is mounted
