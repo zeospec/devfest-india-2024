@@ -57,12 +57,7 @@
           rounded
           size="large"
           color="#FFD427"
-          v-if="
-            mainData.eventInfo &&
-            mainData.eventInfo.registeration.link.length &&
-            new Date(mainData.eventInfo.registeration.end_date) > new Date()
-          "
-          :href="mainData.eventInfo.registeration.link"
+          to="/events"
           class="my-4 mt-3"
           target="_blank"
           style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize;font-weight:600;font-size: 16px;"
