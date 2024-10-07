@@ -2,7 +2,7 @@
 Standard Web App for DevFest's Events. <br>
 Show some ❤️ and star the repo to support the project
 
-![asd](/public/thumbnail.png)
+![asd](/public/thumbnail.jpg.png)
 
 ## Getting Started
 1. Fork the repo
