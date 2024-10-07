@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="default">
+
     <v-container fluid class=" fill-height">
       <v-row justify-center align="center">
         <v-col md="6" sm="7" cols="12">
@@ -80,7 +80,7 @@
         </v-col>
       </v-row>
     </v-container>
-  </NuxtLayout>
+
 </template>
 
 <script setup>
@@ -88,7 +88,7 @@ import { ref, onMounted } from "vue";
 import gdgImage from "../assets/img/badge.png";
 const { mainData } = useJSONData();
 definePageMeta({
-  layout: false,
+  layout: "default",
 });
 
 const canvasRef = ref(null);

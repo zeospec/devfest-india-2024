@@ -1,10 +1,8 @@
 <template>
   <v-container fluid>
-    <v-row>
+    <v-row class="mb-0 mb-n10">
       <v-col md="12">
-        <h1 class="google-font">
-          DevFests in India
-        </h1>
+        <h1 class="google-font">DevFests in India</h1>
         <p class="my-0 mb-8 h1-subheading google-font">
           Communities from each chapter, all over the India have gathered
           together to make India DevFest a success. Locate your nearest google
@@ -13,19 +11,11 @@
       </v-col>
     </v-row>
 
-    <!-- Loader -->
-    <!-- <v-row align="start" justify="start" class="my-10" v-if="loader">
-            <v-col md="3" sm="6" v-for="i in 4" :key="i">
-              <v-skeleton-loader style="border-radius: 15px;" class="mx-auto" type="card"></v-skeleton-loader>
-            </v-col>
-          </v-row> -->
-    <!-- Loader -->
-
     <!-- Upcoming DevFest -->
-    <v-row align="start" justify="start" v-if="!loader">
+    <v-row align="start" justify="start" >
       <v-col
         md="3"
-        sm="6"
+        sm="4"
         v-for="(item, index) in upcomingDevFests"
         :key="index"
       >
@@ -35,11 +25,11 @@
     <!-- Upcoming DevFest -->
 
     <!-- Past DevFests -->
-    <p v-if="!loader && passedDevFests?.length > 0" class="mt-10 mb-1">
+    <p v-if="passedDevFests?.length > 0" class="mt-10 mb-1">
       Past DevFests
     </p>
-    <v-row align="start" justify="start" v-if="!loader">
-      <v-col md="3" sm="6" v-for="(item, index) in passedDevFests" :key="index">
+    <v-row align="start" justify="start" >
+      <v-col md="3" sm="4" v-for="(item, index) in passedDevFests" :key="index">
         <devFestInfoDialogeVue :item="item" />
       </v-col>
     </v-row>
@@ -49,51 +39,43 @@
   
 <script setup>
 import devFestInfoDialogeVue from "@/components/common/devFestInfoDialoge.vue";
+const { upcomingDevFests, passedDevFests, mainData } = useJSONData();
 definePageMeta({
   layout: "default",
 });
-// Reactive state
-const loader = ref(true);
-const upcomingDevFests = ref([]);
-const passedDevFests = ref([]);
 
-// Function to fetch events data
-async function getAllEvents() {
-  loader.value = true;
-  try {
-    let res = await fetch(
-      "https://raw.githubusercontent.com/devfestindia/devfest-india-data-2024/refs/heads/main/data/events.json"
-    );
-    res = await res.json();
-
-    // DEBUG: Log current date in various formats
-    const currentDate = new Date();
-
-    // Filter upcoming events
-    upcomingDevFests.value = res.filter((event) => {
-      const eventStartDate = new Date(event.StartingDate);
-
-      return eventStartDate >= currentDate;
-    });
-
-    // Filter passed events
-    passedDevFests.value = res.filter((event) => {
-      const eventStartDate = new Date(event.StartingDate);
-      return eventStartDate < currentDate;
-    });
-
-    // DEBUG: Log filtered results
-  } catch (error) {
-    console.error("Error fetching events", error);
-  } finally {
-    loader.value = false; // Set the loader to false after fetching the data
-  }
-}
-
-// Fetch events when component is mounted
-onMounted(() => {
-  getAllEvents();
+useSeoMeta({
+  contentType: "text/html; charset=utf-8",
+  title:
+    "Events - " +
+    mainData.eventInfo.name +
+    " | " +
+    mainData.communityName,
+  description: mainData.eventInfo.description.short,
+  keywords: mainData.seo.keywords,
+  ogLocale: "en_US",
+  author: "OSS Labs",
+  creator: "OSS Labs",
+  viewport: "width=device-width, initial-scale=1.0",
+  ogTitle:
+    "Events - " +
+    mainData.eventInfo.name +
+    " | " +
+    mainData.communityName,
+  ogDescription: mainData.eventInfo.description.short,
+  ogImage: `${mainData.seo.hostUrl}/thumbnail.png?auto=format&fit=crop&frame=1&h=512&w=1024`,
+  ogUrl: mainData.seo.hostUrl,
+  ogType: "website",
+  twitterTitle:
+    "Events - " +
+    mainData.eventInfo.name +
+    " | " +
+    mainData.communityName,
+  twitterDescription: mainData.eventInfo.description.short,
+  twitterImage: `${mainData.seo.hostUrl}thumbnail.png?auto=format&fit=crop&frame=1&h=512&w=1024`,
+  twitterCard: "summary_large_image",
 });
+
 </script>
   
   <style scoped>
