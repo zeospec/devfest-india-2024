@@ -30,7 +30,7 @@
               <v-row> <v-img class="gdg-logo" alt="logo" src="/assets/img/gdg.png"></v-img></v-row>
               
               <h1 class="Devfest">DevFest</h1>
-              <h2 class="year">India'24</h2>
+              <h2 class="Devfest">India'24</h2>
             </v-col>
           </v-row>
         </v-container>
