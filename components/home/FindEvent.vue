@@ -22,9 +22,8 @@
         <v-btn
           rounded
           color="#4284F3"
-          to="/"
+          to="/badge"
           class="my-2 mt-3 mr-3"
-          target="_blank"
           style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize;padding: 14px;display: inline-block;height: auto;border-radius: 50px;"
           variant="flat"
           ><span class="pr-2"> Get the DevFest Badge </span><img src="/assets/img/lucide_badge.svg"/>
@@ -33,9 +32,8 @@
         <v-btn
           rounded
           color="#fff"
-          to="/FindAnEventPage"
+          to="/events"
           class="my-2 mt-3 mr-3 white-btn"
-          target="_blank"
           style="border: 1.5px solid #1e1e1e;background-color: #fff !important; color: #19154A;text-transform: capitalize;padding: 14px;display: inline-block;height: auto;border-radius: 50px;"
           variant="flat"
           >See all DevFest dates</v-btn

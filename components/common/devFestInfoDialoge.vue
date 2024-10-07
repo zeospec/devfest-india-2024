@@ -80,7 +80,7 @@
         </div>
   </template>
       
-      <script>
+  <script>
   export default {
     props: ["item"],
     data: () => ({
