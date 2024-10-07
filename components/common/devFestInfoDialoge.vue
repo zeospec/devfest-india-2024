@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="dialog" width="400">
+  <v-dialog v-model="dialog" width="600">
     <template v-slot:activator="{ props: activatorProps }">
       <v-card
         v-bind="activatorProps"
@@ -67,8 +67,55 @@
         </v-card-title>
       </v-card>
     </template>
-    <v-card max-width="400" class="pa-2" rounded="xl">
-      {{ item }}
+    <v-card class="pa-2" rounded="xl">
+      <v-container fluid>
+        <v-row>
+          <v-col>
+            <h1>{{ item.DevFestName }}</h1>
+            <h2>{{ item.CommunityName }}</h2>
+
+            <p>Date: {{ getDate(item.StartingDate) }}</p>
+            <p>Venue: {{ item.Venue }}</p>
+
+            <p class="my-4">{{ item.Description }}</p>
+
+            <p class="mb-0">Call For Presentations</p>
+            <a
+              v-if="new Date(item.CFP.LastDate) >= new Date()"
+              color="red"
+              style="font-size: 17px; text-decoration: underline"
+              :href="item.CFP.Link"
+              >{{ `Apply now by ${getDate(item.CFP.LastDate)}` }}</a
+            >
+            <a v-else class="disabled">Not accepting proposals anymore</a>
+            <br />
+            <br />
+            <v-btn
+              rounded
+              variant="flat"
+              color="primary"
+              class="mt-4"
+              v-if="item.EventLink.length"
+              :href="item.EventLink"
+              target="_blank"
+            >
+              <v-icon start>mdi-open-in-new</v-icon>
+              Event Link</v-btn
+            >
+
+            <v-btn
+              rounded
+              variant="tonal"
+              color="primary"
+              class="mt-4 mx-3"
+              target="_blank"
+              @click="dialog = false"
+            >
+              Close</v-btn
+            >
+          </v-col>
+        </v-row>
+      </v-container>
     </v-card>
   </v-dialog>
 </template>
