@@ -1,0 +1,382 @@
+[
+  {
+      "City": "Prayagraj",
+      "CommunityName": "GDG Prayagraj",
+      "DevFestName": "DevFest Prayagraj",
+      "Days": "1",
+      "StartingDate": "2023-12-30",
+      "EndingDate": "2023-12-30",
+      "Venue": "Prayagraj",
+      "Description": "DevFest Prayagraj stands as a beacon of technological innovation, uniting the finest minds in the field to foster a collaborative spirit of learning and growth. This unparalleled event, hosted by the Google Developer Groups (GDG), embodies the essence of knowledge sharing, networking, and exploring the latest trends in technology. With an array of insightful talks, immersive workshops, and engaging sessions, DevFest Prayagraj promises an enriching experience for both seasoned professionals and aspiring developers. Join us at this groundbreaking event to unlock new possibilities, forge valuable connections, and immerse yourself in the dynamic world of technology.!",
+      "EventLink": "https://konfhub.com/devfestprayagraj23",
+      "CommunityPage": "https://gdg.community.dev/gdg-prayagraj/",
+      "Visible": "true",
+      "State": "Uttar Pradesh",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://gdg.community.dev/gdg-prayagraj/",
+          "LastDate": "2023-12-30"
+      }
+  },
+  {
+      "City": "New Delhi",
+      "CommunityName": "GDG New Delhi",
+      "DevFestName": "DevFest New Delhi",
+      "Days": "1",
+      "StartingDate": "2023-10-07",
+      "EndingDate": "2023-10-07",
+      "Venue": "New Delhi",
+      "Description": "GDG New Delhi is proud to present DevFest 2023, the biggest event of the year for developers, designers, and techies. This one-day festival will feature multiple tracks of tech sessions, communities, and projects, as well as food and fun activities. Whether you're a seasoned pro or just getting started in the tech world, DevFest has something for everyone. So mark your calendars, wear a big smile and we'll see you there!",
+      "EventLink": "https://www.commudle.com/communities/gdg-new-delhi/events/devfest-2023",
+      "CommunityPage": "https://www.commudle.com/communities/gdg-new-delhi/",
+      "Visible": "true",
+      "State": "New Delhi",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://www.commudle.com/fill-form/1892",
+          "LastDate": "2023-09-20"
+      }
+  },
+  {
+      "City": "Mangalore",
+      "CommunityName": "GDG Cloud Mangalore",
+      "DevFestName": "DevFest Mangalore",
+      "Days": "1",
+      "StartingDate": "2023-11-18",
+      "EndingDate": "2023-11-18",
+      "Venue": "The Avatar Hotel & Convention - Mangalore",
+      "Description": "DevFest Mangalore 2023 will be the largest technical event and the first ever GDG festival in Mangalore as we set to host 1000+ developers from various geographies including Mangalore, Udupi, and Kasargod. Our day will be overloaded with knowledge and fun as we have speaker sessions from Googlers and Google Developer Experts, hands-on workshops on trending topics like GenAI and Kubernetes, IAMRemarkable session for empowerment and a lot of time and space for networking!",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-cloud-mangalore-presents-devfest-mangalore-2023-1/",
+      "CommunityPage": "https://gdg.community.dev/gdg-cloud-mangalore/",
+      "Visible": "true",
+      "State": "Karnataka",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://forms.gle/yboekrP41xVdGusG9",
+          "LastDate": "2023-10-04"
+      }
+  },
+  {
+      "City": "Ahmedabad",
+      "CommunityName": "GDG Ahmedabad",
+      "DevFestName": "DevFest Ahmedabad",
+      "Days": "1",
+      "StartingDate": "2023-12-17",
+      "EndingDate": "2023-17-17",
+      "Venue": "Ahmedabad",
+      "Description": "GDG DevFest Ahmedabad brings together the world class experts in Android, Web and Cloud technologies to Ahmedabad for sessions, workshops and showcases.",
+      "EventLink": "https://devfest.gdgahmedabad.com/",
+      "CommunityPage": "https://gdg.community.dev/gdg-ahmedabad/",
+      "Visible": "true",
+      "State": "Gujarat",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/gdg-ahmedabad-devfest-2023/",
+          "LastDate": "2023-10-15"
+      }
+  },
+  {
+      "City": "Bhilai",
+      "CommunityName": "GDG Bhilai",
+      "DevFestName": "DevFest Bhilai",
+      "Days": "1",
+      "StartingDate": "2023-11-26",
+      "EndingDate": "2023-11-26",
+      "Venue": "Bhilai",
+      "Description": "GDG Bhilai brings together the world-class experts in Android, Web and Cloud technologies to Bhilai for sessions, workshops, and showcases.. This one-day festival will feature multiple tracks of tech sessions, communities, and projects, as well as food and fun activities. Whether you're a seasoned pro or just getting started in the tech world, DevFest has something for everyone. So mark your calendars, wear a big smile and we'll see you there!",
+      "EventLink": "https://devfestbhilai2023.tech/",
+      "CommunityPage": "https://gdg.community.dev/gdg-bhilai/",
+      "Visible": "true",
+      "State": "Chhattisgarh",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/cfp-gdg-devfest-bhilai/",
+          "LastDate": "2023-10-31"
+      }
+  },
+  {
+      "City": "Siliguri",
+      "CommunityName": "GDG Siliguri",
+      "DevFestName": "DevFest Siliguri",
+      "Days": "1",
+      "StartingDate": "2023-11-04",
+      "EndingDate": "2023-11-04",
+      "Venue": "ROYAL SAROVAR PORTICO, Siliguri",
+      "Description": "Join us for an immersive and inspiring tech experience at DevFest Siliguri 2023! This year, we're bringing together tech enthusiasts, developers, and innovators from all around the region to explore the latest in technology, share knowledge, and network with like-minded individuals.",
+      "EventLink": "https://gdgsiliguri.com/",
+      "CommunityPage": "https://gdg.community.dev/gdg-siliguri/",
+      "Visible": "true",
+      "State": "West Bengal",
+      "CFP": {
+          "Status": "0",
+          "Link": "https://www.commudle.com/fill-form/1967",
+          "LastDate": "2023-10-13"
+      }
+  },
+  {
+      "City": "Jalandhar",
+      "CommunityName": "GDG Jalandhar",
+      "DevFestName": "DevFest Jalandhar",
+      "Days": "1",
+      "StartingDate": "2023-11-04",
+      "EndingDate": "2023-11-04",
+      "Venue": "IK Gujral Punjab Technical University (Main Campus)",
+      "Description": "GDG Jalandhar brings Punjab's biggest Dev-Conference for the developer community of Punjab. Grab this oppurtunity to learn from industry leading experts and network with them.",
+      "EventLink": "https://devfest.gdgjalandhar.com/",
+      "CommunityPage": "https://gdg.community.dev/gdg-jalandhar/",
+      "Visible": "true",
+      "State": "Punjab",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://forms.gle/pHTzHhHLcdioHj48A",
+          "LastDate": "2023-10-21"
+      }
+  },
+  {
+      "City": "Visakhapatnam",
+      "CommunityName": "GDG Vizag",
+      "DevFestName": "DevFest Vizag",
+      "Days": "1",
+      "StartingDate": "2023-12-02",
+      "EndingDate": "2023-12-02",
+      "Venue": "GITAM University, Visakhapatnam",
+      "Description": "DevFest Vizag is back! and it's happening on 2nd December, 2023 at GITAM University, Visakhapatnam. From Android to Flutter to ML, Web3 and Cybersecurity with a pinch of Product Management, we've got it all. Sounds New to all of it? We got you covered as well! This time we are curating exclusive tracks for students and professionals. WHY? Because we heard you. Google's DEVeloper FESTival is not only for students, its equally open to professionals, freelancers and entrepreneurs. The needs and aspirations of each is different! So there are separate tracks according to your interests. Apply to be a part of the festival now.",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-vizag-presents-devfest-vizag-2023/",
+      "CommunityPage": "https://gdg.community.dev/gdg-vizag/",
+      "Visible": "true",
+      "State": "Andhra Pradesh",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/devfest-vizag-2023",
+          "LastDate": "2023-12-20"
+      }
+  },
+  {
+      "City": "Raipur",
+      "CommunityName": "GDG Raipur",
+      "DevFestName": "DevFest Raipur",
+      "Days": "1",
+      "StartingDate": "2023-12-16",
+      "EndingDate": "2023-12-16",
+      "Venue": "Raipur",
+      "Description": "GDG Raipur empower local tech professionals and aspiring tech enthusiasts by providing access to various events, tech sessions, seminars, and other activities. We aim to provide the same opportunities and exposure that tech professionals in metro cities enjoy",
+      "EventLink": "https://devfestraipur.in/",
+      "CommunityPage": "https://gdg.community.dev/gdg-raipur/",
+      "Visible": "true",
+      "State": "Chhattisgarh",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://cfp.gdgraipur.in/devfest-raipur-2023/",
+          "LastDate": "2023-11-15"
+      }
+  },
+  {
+      "City": "Bhopal",
+      "CommunityName": "GDG Bhopal",
+      "DevFestName": "DevFest Bhopal",
+      "Days": "1",
+      "StartingDate": "2023-12-10",
+      "EndingDate": "2023-12-10",
+      "Venue": "Bhopal",
+      "Description": "GDG Bhopal brings the most-awaited tech event for the developer community of Madhya Pradesh. Join us for a day of learning and networking with industry leaders. Explore cutting-edge technologies, attend interactive sessions, and build valuable connections.",
+      "EventLink": "https://devfest.gdgbhopal.com/",
+      "CommunityPage": "https://gdg.community.dev/gdg-bhopal/",
+      "Visible": true,
+      "State": "Madhya Pradesh",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://forms.gle/XctaTnmtwcSbi8KN9",
+          "LastDate": "2023-11-30"
+      }
+  },
+  {
+      "City": "Chennai",
+      "CommunityName": "GDG Chennai",
+      "DevFestName": "DevFest Chennai",
+      "Days": "1",
+      "StartingDate": "2023-12-01",
+      "EndingDate": "2023-12-02",
+      "Venue": "IIT-M Research Park, Chennai",
+      "Description": "Chennai’s most awaited tech conference. Come learn, network, and celebrate with the Google Developer Ecosystem while also learning to hack on Android, Chrome, and the Web.",
+      "EventLink": "https://devfest.gdgchennai.in/",
+      "CommunityPage": "https://gdg.community.dev/gdg-chennai/",
+      "Visible": true,
+      "State": "Tamilnadu",
+      "CFP": {
+          "Status": "0",
+          "Link": "https://forms.gle/8H7MVjMVqJaC6koE7",
+          "LastDate": "2023-11-30"
+      }
+  },
+  {
+      "City": "Lucknow",
+      "CommunityName": "GDG Lucknow",
+      "DevFestName": "Devfest Lucknow 2023",
+      "Days": "1",
+      "StartingDate": "2023-11-19",
+      "EndingDate": "2023-11-19",
+      "Venue": "BBD Auditorium, Lucknow, Uttar Pradesh",
+      "Description": "The much-anticipated tech conference in Lucknow has arrived! Come join us to learn, connect, and celebrate with the Google Developer Community. Get set to explore Android, Web, Machine Learning, Cloud, and a lot more of exciting topics.",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2023/",
+      "CommunityPage": "https://gdg.community.dev/gdg-lucknow/",
+      "Visible": true,
+      "State": "Uttar Pradesh",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/devfest-lucknow-2023/",
+          "LastDate": "2023-11-12"
+      }
+  },
+  {
+      "City": "Salem",
+      "CommunityName": "GDG Salem",
+      "DevFestName": "DevFest 2023 Salem",
+      "Days": "1",
+      "StartingDate": "2023-12-23",
+      "EndingDate": "2023-12-23",
+      "Venue": "Sona College of Technology, Junction Main Rd, Salem, 636005",
+      "Description": "Welcome to DevFest 2023 Salem, where technology meets community in an unforgettable union. DevFest is more than just an event; it's a celebration of innovation, knowledge sharing, and the vibrant GDG Salem community.At DevFest 2023 Salem, we're bringing together local developers, tech enthusiasts, and learners for a day filled with exploration and interaction. This local chapter of the global DevFest initiative is designed to cater to your curiosity and thirst for tech excellence.",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-salem-presents-devfest-2023-salem/",
+      "CommunityPage": "https://gdg.community.dev/gdg-salem/",
+      "Visible": true,
+      "State": "Tamilnadu",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://forms.gle/hSHhRHLLVKhvvFg4A",
+          "LastDate": "2023-11-30"
+      }
+  },
+  {
+      "City": "Chandigarh",
+      "CommunityName": "GDG Chandigarh",
+      "DevFestName": "DevFest 2023 Chandigarh",
+      "Days": "1",
+      "StartingDate": "2023-12-09",
+      "EndingDate": "2023-12-09",
+      "Venue": "Amity University, Mohali, IT City Road, Sahibzada Ajit Singh Nagar, 140306 ",
+      "Description": "GDG Chandigarh invites you to join us as we bring together top-tier experts in  Android, Web, and Cloud technologies for an exhilarating day of sessions, workshops, and showcases. This one-day festival promises multiple tracks of tech sessions, vibrant communities, and innovative projects, complemented by delightful food and engaging activities. Whether you're a seasoned professional or just embarking on your tech journey, DevFest has something special for everyone. Save the date, don your brightest smile, and we look forward to welcoming you there!",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-chandigarh-presents-devfest-chandigarh-2023/",
+      "CommunityPage": "https://gdg.community.dev/gdg-chandigarh/",
+      "Visible": true,
+      "State": "Punjab",
+      "CFP": {
+          "Status": "0",
+          "Link": "https://sessionize.com/devfest-chandigarh-2023/",
+          "LastDate": "2023-11-15"
+      }
+  },
+  {
+      "City": "Indore",
+      "CommunityName": "GDG Indore",
+      "DevFestName": "DevFest Indore 2023",
+      "Days": "1",
+      "StartingDate": "2023-11-26",
+      "EndingDate": "2023-11-26",
+      "Venue": "Hotel Sayaji, Indore ",
+      "Description": "GDG Indore invites you to join us as we bring together top-tier experts in  Entrepreneurship,ML, Web, and Cloud technologies for an exhilarating day of sessions, workshops, and showcases. This one-day event promises three multiple tracks of tech sessions, vibrant communities, and innovative projects, complemented by delightful food and engaging activities. Whether you're a seasoned professional or just embarking on your tech journey, DevFest Indore 2023 has something special for everyone. Save the date, don your brightest smile, and we look forward to welcoming you there!",
+      "EventLink": "https://devfest.gdgindore.in/",
+      "CommunityPage": "https://gdg.community.dev/gdg-indore/",
+      "Visible": true,
+      "State": "Madhya Pradesh",
+      "CFP": {
+          "Status": "0",
+          "Link": "https://sessionize.com/devfest-indore-2023/",
+          "LastDate": "2023-11-20"
+      }
+  },
+  {
+      "City": "Pune",
+      "CommunityName": "GDG Pune",
+      "DevFestName": "DevFest Pune 2023",
+      "Days": "1",
+      "StartingDate": "2023-12-23",
+      "EndingDate": "2023-12-23",
+      "Venue": "JW Marriott Hotel, Pune ",
+      "Description": "We’re excited to announce the Devfest Pune 2023 conference! This is a community-run, in-person conference aimed to bring technologists, developers, startup founders, entrepreneurs, tech enthusiasts, students, tech companies and speakers together in one location to learn, discuss and experiment with technology. This one-day event promises three multiple tracks of tech sessions, lightning talks at the community lounge and panel discussions complemented by delightful food and engaging activities. Whether you're a seasoned professional or just embarking on your tech journey, DevFest Pune 2023 has something special for everyone. Save the date, don your brightest smile, and we look forward to welcoming you there!",
+      "EventLink": "https://devfest.gdgpune.in/",
+      "CommunityPage": "https://gdg.community.dev/gdg-pune/",
+      "Visible": true,
+      "State": "Maharashtra",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/devfest-pune-2023",
+          "LastDate": "2023-11-30"
+      }
+  },
+  {
+      "City": "Jammu",
+      "CommunityName": "GDG Jammu",
+      "DevFestName": "DevFest Jammu",
+      "Days": "1",
+      "StartingDate": "2023-12-21",
+      "EndingDate": "2023-12-21",
+      "Venue": "Model Institute of Engineering and Technology (MIET), Jammu",
+      "Description": "Jammu’s most awaited tech conference. Come learn, network and celebrate with the Google Developer Ecosystem while also learning to hack on Android, Chrome, and Web.",
+      "EventLink": "https://devfest.gdgjammu.com",
+      "CommunityPage": "https://gdg.community.dev/gdg-Jammu",
+      "Visible": "true",
+      "State": "Jammu",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://forms.gle/iJ4gdagjMVBmDPAT9",
+          "LastDate": "2023-12-08"
+      }
+  },
+  {
+      "City": "Ludhiana",
+      "CommunityName": "GDG Ludhiana",
+      "DevFestName": "DevFest Ludhiana",
+      "Days": "1",
+      "StartingDate": "2023-12-23",
+      "EndingDate": "2023-12-23",
+      "Venue": "Guru Nanak Dev Engineering College (GNE), Ludhiana",
+      "Description": "Ludhiana’s most awaited tech conference. Come learn, network and celebrate with the Google Developer Ecosystem while also learning to hack on Android, Chrome, and Web.",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-ludhiana-presents-devfest-ludhiana-2023/",
+      "CommunityPage": "https://gdg.community.dev/gdg-ludhiana/",
+      "Visible": "true",
+      "State": "Jammu",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/devfest-ludhiana-2023-offline/",
+          "LastDate": "2023-12-10"
+      }
+  },
+  {
+      "City": "Jaipur",
+      "CommunityName": "GDG Jaipur",
+      "DevFestName": "DevFest Jaipur",
+      "Days": "1",
+      "StartingDate": "2023-12-17",
+      "EndingDate": "2023-12-17",
+      "Venue": "Jaipur",
+      "Description": "DevFest is an annual decentralised tech conference hosted by Google Developer Groups across the globe. 2023 will be the 12th year 🎉 of DevFest by GDG community. GDG Jaipur is organising DevFest 2023 in association Tensor Flow User Group Jaipur (TFUG Jaipur) and Google Cloud Jaipur. ",
+      "EventLink": "https://gdg.community.dev/events/details/google-gdg-jaipur-presents-devfest-jaipur-2023/",
+      "CommunityPage": "https://gdg.community.dev/gdg-jaipur/",
+      "Visible": "true",
+      "State": "Rajasthan",
+      "CFP": {
+          "Status": "1",
+          "Link": "https://sessionize.com/devfest-jaipur-2023",
+          "LastDate": "2023-12-09"
+      }
+  },
+  {
+      "City": "Kolkata",
+      "CommunityName": "GDG Kolkata",
+      "DevFestName": "DevFest Kolkata",
+      "Days": "1",
+      "StartingDate": "2023-12-22",
+      "EndingDate": "2023-12-22",
+      "Venue": "Dhono Dhanyo Auditorium, Alipore, Kolkata",
+      "Description": "DevFest is a global, decentralized tech conference hosted by the Google Developer Groups (GDG) community. Each DevFest event is crafted by its local organizers to fit their local developer community's learning needs and interests, with a strong focus on knowledge exchange and networking.",
+      "EventLink": "https://devfest.gdgkolkata.in",
+      "CommunityPage": "https://gdg.community.dev/gdg-kolkata/",
+      "Visible": "true",
+      "State": "West Bengal",
+      "CFP": {
+          "Status": "0",
+          "Link": "https://gdg.community.dev/gdg-kolkata/",
+          "LastDate": "2023-12-02"
+      }
+  }
+]
