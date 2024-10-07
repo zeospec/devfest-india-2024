@@ -16,6 +16,8 @@ let passedDevFests = eventsData.filter((event) => {
   return eventStartDate < currentDate;
 });
 
+let currentCFP
+
 export const useJSONData = () => {
 
   return {
