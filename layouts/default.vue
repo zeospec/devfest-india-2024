@@ -1,5 +1,6 @@
 <template>
   <v-app style="background-color: #FAF9F9" class="google-font">
+    <NuxtLoadingIndicator />
     <CoreAppToolbar />
     <ClientOnly>
       <CoreAppDrawer />
