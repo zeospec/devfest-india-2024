@@ -1,86 +1,96 @@
 <template>
+  <v-container fluid class="fill-height">
+    <v-row justify-center align="center">
+      <v-col md="6" sm="7" cols="12">
+        <h1>Badge</h1>
+        <p class="mt-2">
+          Upload an image and generate a personalized badge with the DevFest
+          frame.
+        </p>
 
-    <v-container fluid class=" fill-height">
-      <v-row justify-center align="center">
-        <v-col md="6" sm="7" cols="12">
-          <h1>Badge</h1>
-          <p class="mt-2">
-            Upload an image and generate a personalized badge with the DevFest
-            frame.
-          </p>
+        <p class="mt-8">Select an Image</p>
 
-          <p class="mt-8">Select an Image</p>
+        <v-btn
+          class="mt-4 mb-5"
+          size="large"
+          color="#FFD427"
+          @click="triggerFileUpload"
+          rounded
+          variant="flat"
+          style="
+            border: 1.5px solid #1e1e1e;
+            color: black;
+            text-transform: capitalize;
+          "
+        >
+          Upload Image
+          <v-icon>mdi-tray-arrow-up</v-icon>
+        </v-btn>
+        <input
+          ref="fileInput"
+          class="profile-input"
+          type="file"
+          accept="image/*"
+          @change="upload"
+          hidden
+        />
 
-          <v-btn
-            class="mt-4 mb-5"
-            size="large"
-            color="#FFD427"
-            @click="triggerFileUpload"
+        <div class="mt-5">
+          <label class="google-font mb-5" style="font-size: 110%">
+            Image Shape
+          </label>
+          <br />
+          <v-btn-toggle
+            class="mt-3"
             rounded
-            variant="flat"
-            style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize"
+            style="
+              border: 1.5px solid #1e1e1e;
+              color: black;
+              text-transform: capitalize;
+            "
+            v-model="shapeData"
+            @click="changeShape(shapeData)"
+            color="#eeeeee"
           >
-            Upload Image
-            <v-icon>mdi-tray-arrow-up</v-icon>
+            <v-btn value="original" class="mx-0 px-5 pb-0">Original</v-btn>
+            <v-btn value="Square" class="mx-0 pb-0 px-5">Square</v-btn>
+            <v-btn value="circle" class="mx-0 pb-0 px-5">Circle</v-btn>
+          </v-btn-toggle>
+        </div>
+        <p class="mt-8 mb-md-0">
+          <span>
+            *&nbsp; We respect your privacy and are not storing your pictures on
+            our servers.
+          </span>
+        </p>
+      </v-col>
+      <v-col md="6" sm="5" cols="12" class="px-md-10">
+        <div
+          style="
+            background: #eeeeee;
+            border-radius: 20px;
+            border: 1.5px solid black;
+          "
+          class="text-center pa-5 pa-md-5 py-md-10"
+        >
+          <canvas
+            ref="canvasRef"
+            style="width: 100%; border-radius: 12px"
+          ></canvas>
+          <v-btn
+            class="pb-0 mb-0 mt-2"
+            rounded
+            id="download"
+            @click="download"
+            v-show="downloadVisible"
+          >
+            <v-icon left>mdi-arrow-down-bold-circle-outline</v-icon>
+            Download
           </v-btn>
-          <input
-            ref="fileInput"
-            class="profile-input"
-            type="file"
-            accept="image/*"
-            @change="upload"
-            hidden
-          />
-
-          <div class="mt-5">
-            <label class="google-font mb-5" style="font-size: 110%">
-              Image Shape
-            </label>
-            <br />
-            <v-btn-toggle
-              class="mt-3"
-              rounded
-              style="border: 1.5px solid #1e1e1e; color: black;text-transform: capitalize"
-              v-model="shapeData"
-              @click="changeShape(shapeData)"
-              color="#eeeeee"
-            >
-              <v-btn value="original" class="mx-0 px-5 pb-0">Original</v-btn>
-              <v-btn value="Square" class="mx-0 pb-0 px-5">Square</v-btn>
-              <v-btn value="circle" class="mx-0 pb-0 px-5">Circle</v-btn>
-            </v-btn-toggle>
-          </div>
-          <p class="mt-8 mb-md-0">
-            <span>
-              *&nbsp; We respect your privacy and are not storing your pictures
-              on our servers.
-            </span>
-          </p>
-        </v-col>
-        <v-col md="6" sm="5" cols="12" class="px-md-10">
-          <div
-            style="background: #eeeeee; border-radius: 20px;border: 1.5px solid black;"
-            class="text-center pa-5 pa-md-5 py-md-10"
-          >
-            <canvas
-              ref="canvasRef"
-              style="width: 100%; border-radius: 12px"
-            ></canvas>
-            <v-btn
-              class="pb-0 mb-0 mt-2"
-              rounded
-              id="download"
-              @click="download"
-              v-show="downloadVisible"
-            >
-              <v-icon left>mdi-arrow-down-bold-circle-outline</v-icon>
-              Download
-            </v-btn>
-          </div>
-        </v-col>
-      </v-row>
-    </v-container>
-
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script setup>
@@ -233,7 +243,7 @@ useSeoMeta({
   title: "Badge - " + mainData.eventInfo.name + " | " + mainData.communityName,
   description: mainData.eventInfo.description.short,
   keywords: mainData.seo.keywords,
-  ogLocale:'en_US',
+  ogLocale: "en_US",
   author: "OSS Labs",
   creator: "OSS Labs",
   viewport: "width=device-width, initial-scale=1.0",
