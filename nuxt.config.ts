@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vuetify"],
   },
+  ssr: false,
   css: ['~/assets/main.css'],
   modules: [
     (_options, nuxt) => {

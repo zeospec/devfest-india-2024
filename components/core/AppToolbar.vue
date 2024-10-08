@@ -6,7 +6,7 @@
     rounded="xl"
     color="white"
   >
-  <v-app-bar-nav-icon
+    <v-app-bar-nav-icon
       class="d-md-none d-lg-none d-sm-flex d-flex"
       @click="drawerAction"
     ></v-app-bar-nav-icon>
@@ -19,13 +19,19 @@
           class="mr-2"
         ></v-img>
         <v-chip
-          style="display: inline; background-color: white;border: 1px solid black;"
+          style="
+            display: inline;
+            background-color: white;
+            border: 1px solid black;
+          "
           variant="outlined"
           color="black"
           size="small"
           class="align-center pt-1"
-          >
-          <v-icon class="ml-1" start><v-img src="/img/flag-india.svg"></v-img></v-icon>
+        >
+          <v-icon class="ml-1" start
+            ><v-img src="/img/flag-india.svg"></v-img
+          ></v-icon>
           {{ mainData.communityLocation.city }}</v-chip
         >
       </div>
@@ -33,17 +39,16 @@
 
     <v-spacer></v-spacer>
     <div class="mx-4 d-none d-sm-none d-md-flex d-lg-flex">
-      <template v-for="(item, index) in navbarData" :key="index">
-        <v-btn
-          rounded
-          size="small"
-          style="text-transform: capitalize"
-          :to="item.path"
-          class="mx-1"
-          v-if="item.visible"
-          >{{ item.name }}</v-btn
-        >
-      </template>
+      <v-btn
+        rounded
+        size="small"
+        v-for="(item, index) in navbarData"
+        :key="index"
+        style="text-transform: capitalize"
+        :to="item.path"
+        class="mx-1"
+        >{{ item.name }}</v-btn
+      >
     </div>
 
     <!-- <ClientOnly>
@@ -68,7 +73,6 @@
         >Register Now</v-btn
       >
     </ClientOnly> -->
-    
   </v-app-bar>
 </template>
 
@@ -96,7 +100,7 @@ const drawerAction = () => {
   height: 64px; /* Set the height of the toolbar */
 }
 .rounded-xl {
-    border-radius: 50px !important;
+  border-radius: 50px !important;
 }
 /* Mobile breakpoint */
 @media (max-width: 700px) {
