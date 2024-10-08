@@ -180,7 +180,7 @@ const { mainData } = useJSONData();
     display:flex;
   }
   .space-wrapper {
-    padding-top: 50px !important;
+    padding-top: 140px !important;
 }
 
 /* Media query for screens larger than 600px */
@@ -196,5 +196,8 @@ const { mainData } = useJSONData();
   .mobile-none {
     display: none;
   }
+  .space-wrapper {
+    padding-top: 40px !important;
+}
 }
 </style>
