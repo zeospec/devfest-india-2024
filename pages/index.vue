@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row>
         <!-- Hero -->
-        <HomeHeroSection class="my-0 mb-md-10" />
+        <HomeHeroSection class="my-0 my-md-4" />
         <!-- Hero -->
 
         <!-- Stats -->
