@@ -34,7 +34,7 @@
 
         ></v-img>
         <div class="space-wrapper">
-          <p class="" :style="{ maxWidth: '90%' }">
+          <p class="" :style="{ maxWidth: '100%' }">
           {{ mainData.eventInfo.description.short }}
         </p>
 
