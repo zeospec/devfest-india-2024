@@ -55,7 +55,7 @@
           target="_blank"
           rel="noreferrer"
           aria-label="link"
-          class="mr-6 google-font grey--text text--darken-3"
+          class="google-font grey--text text--darken-3"
           style="text-decoration: none; color: black; font-size: 80%"
           >Community Guidelines</a
         >
