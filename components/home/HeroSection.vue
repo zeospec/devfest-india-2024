@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mx-4 px-md-15 py-md-8 pa-3 bg-white" style="border: 1.5px solid black; border-radius: 48px;">
+  <v-container fluid class="mx-4 px-md-15 py-md-8 pa-3 bg-white" style="border: 2px solid black; border-radius: 48px;">
     <v-row justify-center align="center" class="mobile-none">
       <v-col md="6" sm="6" cols="12" class="d-flex">
        <div class="vectorimg">
@@ -20,7 +20,13 @@
         ></v-img>
         </div>
           <h1 class="responsive-h1 my-4 pt-4">
-            <span style="font-size: 170%;color:#19154A">DevFest</span><br />
+            <!-- <span style="font-size: 170%;color:#19154A">DevFest</span><br /> -->
+            <v-img
+          alt="logo"
+          src="assets/img/devfesttext.svg"
+          lazy-src="assets/img/devfesttext.svg"
+
+        ></v-img>
              <span style="display: block;padding-top: 10px; font-weight: 500;">{{ mainData.communityLocation.city }} 2024</span>
         </h1>
         </div>
@@ -101,7 +107,13 @@
         ></v-img>
         <div>
           <h1 class="responsive-h1 my-4 pt-4">
-            <span style="font-size: 170%;color:#19154A">DevFest</span><br />
+            <!-- <span style="font-size: 170%;color:#19154A">DevFest</span><br /> -->
+            <v-img
+          alt="logo"
+          src="assets/img/devfesttext.svg"
+          lazy-src="assets/img/devfesttext.svg"
+
+        ></v-img>
              <span style="display: block;padding-top: 10px; font-weight: 500;">{{ mainData.communityLocation.city }} 2024</span>
         </h1>
         </div>

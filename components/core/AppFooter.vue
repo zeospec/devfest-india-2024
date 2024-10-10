@@ -77,6 +77,7 @@ const { mainData } = useJSONData();
   flex-wrap: wrap;
   justify-content: flex-end;
   padding-right: 0;
+  padding-top: 40px;
 }
 
 @media (max-width: 960px) {

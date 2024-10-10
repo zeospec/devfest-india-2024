@@ -7,7 +7,7 @@
           style="
             background-color: #FFE7A5;
             border-radius: 20px;
-            border: 1.5px solid black;
+            border: 2px solid black;
           "
         >
           <v-row justify-center align="center" class="pa-5">
@@ -29,8 +29,14 @@
             <v-col md="3" sm="5" cols="12">
               <v-row> <v-img class="gdg-logo" alt="logo" src="/assets/img/gdg.png"></v-img></v-row>
               
-              <h1 class="Devfest">DevFest</h1>
-              <h2 class="Devfest">India'24</h2>
+              <!-- <h1 class="Devfest">DevFest</h1>
+              <h2 class="Devfest">India'24</h2> -->
+              <v-img
+          alt="logo"
+          src="assets/img/devfest24text.svg"
+          lazy-src="assets/img/devfest24text.svg"
+
+        ></v-img>
             </v-col>
           </v-row>
         </v-container>
