@@ -19,6 +19,7 @@
       link
       :title="item.name"
       :to="item.path"
+      class="list"
     ></v-list-item>
   </v-navigation-drawer>
 </template>
@@ -29,4 +30,13 @@ const sidebar = useSideBar();
 </script>
 
 <style>
+::v-deep v-list-item .v-btn--active  {
+  text-transform: capitalize;
+    background-color: #f9fafa !important;
+    opacity: 1;
+    font-weight: 800;
+}
+::v-deep v-list-item .v-toolbar {
+  border: 2px solid #000;
+}
 </style>

@@ -18,7 +18,7 @@
       </v-col> -->
 
       <v-col cols="12" md="12" sm="12" order-md="2" order="1" order-sm="2" class="pt-0 px-0">
-        <v-container fluid>
+        <v-container fluid class="pl-0 pr-0">
           <v-row>
             <v-col
               md="3"
@@ -60,7 +60,7 @@ const { mainData } = useJSONData();
   font-weight: 600;
 }
 .stats-container {
-  background-size: 78%;
+  background-size: 75%;
 }
 
 @media (max-width: 1140px) {
