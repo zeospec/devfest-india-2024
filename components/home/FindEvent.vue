@@ -2,9 +2,10 @@
   <v-container fluid class="">
     <v-row justify-center align="center">
       <v-col md="7" sm="6" cols="12">
-        <h1 class="responsive-h1 my-4">
+        <h1 class="responsive-h1 my-4" style="color: #19154a;">
           Find lastest <br />
-          upcoming Devfest
+          <span class="pt-3" style="display: inline-block;">upcoming Devfest</span>
+          
         </h1>
 
         <!-- <v-text-field
@@ -31,6 +32,8 @@
             border: 1.5px solid #1e1e1e;
             color: black;
             text-transform: capitalize;
+            height: 60px;
+            border-radius: 48px;
           "
           variant="flat"
           ><span class="pr-2"> Get the DevFest Badge </span
@@ -47,6 +50,8 @@
             background-color: #fff !important;
             color: #19154a;
             text-transform: capitalize;
+            height: 60px;
+            border-radius: 48px;
           "
           variant="flat"
           >See all DevFest dates</v-btn
