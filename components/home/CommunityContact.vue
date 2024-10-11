@@ -47,6 +47,7 @@
 
 <script setup>
 const { mainData } = useJSONData();
+import CommonSpeakerSocialButton from '@/components/common/speakerSocialButton.vue';
 </script>
 
 <style>
