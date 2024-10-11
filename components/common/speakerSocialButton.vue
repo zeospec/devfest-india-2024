@@ -88,7 +88,7 @@ const props = defineProps({
     height: 50px;
     gap: 0px;
     border: 2px 0px 0px 0px;
-    opacity: 0px;
+    opacity: 1;
     border: 2px solid rgba(25, 21, 74, 1);
     box-shadow: 2px 2px 0px 0px rgba(25, 21, 74, 1);
     margin:16px;
