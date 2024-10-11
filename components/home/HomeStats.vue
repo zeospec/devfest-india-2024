@@ -62,6 +62,12 @@ const { mainData } = useJSONData();
 .stats-container {
   background-size: 75%;
 }
+.stats-container:first-child {
+  padding-left: 0;
+}
+.stats-container:last-child {
+  padding-right: 0;
+}
 
 @media (max-width: 1140px) {
   .responsive-title {

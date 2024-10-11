@@ -44,7 +44,7 @@
         size="small"
         v-for="(item, index) in navbarData"
         :key="index"
-        style="text-transform: capitalize"
+        style="text-transform: capitalize;"
         :to="item.path"
         class="mx-1"
         >{{ item.name }}</v-btn
@@ -97,10 +97,17 @@ const drawerAction = () => {
   right: 0;
   z-index: 100;
   margin-bottom: 80px;
+  border-bottom: 2px solid black;
   height: 64px; /* Set the height of the toolbar */
 }
 .rounded-xl {
   border-radius: 50px !important;
+}
+::v-deep v-btn .v-btn--active > .v-btn__overlay, .v-btn > .v-btn__overlay {
+  text-transform: capitalize;
+    background: #f9fafa !important;
+    opacity: 1;
+    font-weight: 800;
 }
 /* Mobile breakpoint */
 @media (max-width: 700px) {
@@ -110,7 +117,7 @@ const drawerAction = () => {
     margin-right: auto !important;
     margin-top: 0 !important;
     border-radius: 0 !important;
-    border-bottom: 1.5px solid black;
+    border-bottom: 2px solid black;
   }
 }
 
@@ -120,7 +127,7 @@ const drawerAction = () => {
     max-width: 1200px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    border: 1.5px solid black;
+    border: 2px solid black;
   }
 }
 </style>
