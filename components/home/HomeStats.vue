@@ -24,24 +24,29 @@
               md="3"
               sm="3"
               cols="6"
-              class="stats-container pt-0"
-              :style="{
-                backgroundImage: `url(${item.image})`,
-                backgroundPosition: 'center',
-                height: '200px',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'rgb(25, 21, 74)'
-              }"
+              class="pl-0 pr-0 pt-0"
               v-for="(item, index) in mainData.eventInfo.stats"
               :key="index"
             >
+            <div class="stats-container pt-0"
+              :style="{
+                backgroundImage: `url(${item.image})`,
+                backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat', /* Ensures the image doesn't repeat */
+      height: '200px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexDirection: 'column',
+      color: 'rgb(25, 21, 74)',
+      textAlign: 'center'
+              }">
               <h1 class="responsive-title">{{ item.value }}</h1>
               <p>
                 {{ item.name }}
               </p>
+            </div>
+              
             </v-col>
           </v-row>
         </v-container>

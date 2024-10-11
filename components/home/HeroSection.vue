@@ -149,7 +149,7 @@
           :href="mainData.eventInfo.registeration.link"
           class="my-4 mt-3"
           target="_blank"
-          style="border: 1.5px solid #1e1e1e; color: #19154A;text-transform: capitalize;font-weight:600;width: 100%;font-size: 16px !important;"
+          style="border: 1.5px solid #1e1e1e; color: #19154A;text-transform: capitalize;font-weight:600;width: 100%;font-size: 16px !important;letter-spacing: 0;"
           variant="flat"
           >Find a DevFest near you</v-btn
         >
